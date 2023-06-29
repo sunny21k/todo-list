@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #d7d7d7;
+  background: linear-gradient( to bottom, #b9dfff, #64b5f6);
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1.2rem;
+  border-bottom: solid black;
+}
+
+button[type="submit"] {
+  padding: 0.4rem .9rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+li span:first-child {
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+  color: #4078fb;
+}
+
+li span:last-child {
+  margin-left: auto;
+}
+
+li .delete-btn {
+  background-color: rgb(209, 61, 76);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  margin-left: auto;
+  transition: background-color 0.2s ease;
+}
+
+li .delete-btn:hover {
+  background-color: #c82333;
+}
+
+.todo-type {
+  margin-left: 10px;
+  color: #999;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  border-radius: 5px;
+  padding: .2rem .3rem;
+  background-color: #eeeeee;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.todo-type:hover {
+  background-color: #e0e0e0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+select {
+  background-color: #f2f2f2;
+  color: #999;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 1rem;
+  border-radius: 5px;
+  padding: .5rem .5rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  }
+  
+  select:hover {
+  background-color: #e0e0e0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  
